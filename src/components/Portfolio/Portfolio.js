@@ -17,7 +17,7 @@ function Portfolio() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-            <strong className="purple">Portfolio</strong>
+            <strong className="purple">Les Projets Personnels</strong>
             </h1>
             <Portfoliocard />
           </Col>

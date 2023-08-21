@@ -11,12 +11,10 @@ function PortfolioCard() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <h1>Mes Réalisations</h1>
+        <h1>Les Réalisations</h1>
         <Row >
           <Col>
             <Row>
-
-
               <Col xs={4} md={5} className="portfolio">
                 <Tilt>
                   <img src={Projet_v1} alt="Projet_v1" className="img-fluid rounded-circle larger-img" />
