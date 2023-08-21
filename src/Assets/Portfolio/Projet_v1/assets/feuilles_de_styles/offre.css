@@ -1,0 +1,108 @@
+/*************************************
+DATE : 		10/06/2021
+Projet 01 : Site web recherche emploi mvc
+Groupe A :
+			Cédric Benoit
+			Alexis Meysson
+			Kevin Andrieu
+*****************************************/
+
+
+
+
+/****************************Offre*********************************/
+
+
+.recherche {
+	width: 100%
+}
+
+.recherche .form1{
+	width: 100%;
+}
+
+.recherche_principal {
+	width: 100%;
+	display: flex;
+	background-color: gainsboro;
+}
+
+.recherche_formulaire{
+	width: 100%;
+	
+	
+}
+
+#saisi_offre{
+	width: 100%;
+}
+
+#saisi_offre1{
+	width: 100%;	
+}
+
+#saisi_offre2{
+	width: 100%;
+}
+
+.button{
+	background-color: #1c87c9;
+	border-radius: 20px;
+	color: white;
+	padding: 23px 30px 30px 30px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	margin-right: 5%;
+	cursor: pointer;	
+}
+
+.article_offre>div>article{
+	margin: 2%;
+	display: flex;
+}
+
+
+.offre_table{
+	width: 100%;
+}
+
+.code{
+	display: flex;
+    justify-content: space-between;
+}
+
+h4{
+	text-align: left;
+}
+
+.offre{
+	margin-left: auto;
+	margin-right: 5%;
+
+	width: auto;
+	background-color: #1c87c9;
+
+	color: white;
+}
+
+.offre th{
+	border: 1px solid;
+}
+
+.btn{
+	display: flex;
+	width: auto;
+	background-color: #307564;
+	border: 2px;
+	color: white;
+	padding: 10px 5px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	cursor: pointer;	
+}
+
+.offre_article{
+	margin-left: inherit;
+}

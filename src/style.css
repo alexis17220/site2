@@ -11,11 +11,16 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #ee2525;
+  --imp-text-color-white: #ffff;
 }
 
 .purple {
   color: var(--imp-text-color) !important;
+}
+
+.white{
+  color: var(--imp-text-color-white) !important;
 }
 
 button:focus {
@@ -57,18 +62,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #5a131c;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: rgba(221, 56, 56, 0.959);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: rgba(221, 41, 41, 0.911);
   border-radius: 12px;
 }
 
@@ -97,7 +102,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #eb1442 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -191,7 +196,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #740f18;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -239,13 +244,7 @@ button:focus {
     transform: rotate(0deg);
   }
 }
-#tsparticles {
-  position: fixed !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  width: 100%;
-  height: 100%;
-}
+
 
 .home-header {
   padding-top: 80px !important;
@@ -278,17 +277,17 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #f3305a;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #d61b34 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #d31b43 !important;
 }
 
 @media (max-width: 767px) {
@@ -368,7 +367,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #7a1841;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -376,13 +375,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #951f3c;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #9e2031;
+  box-shadow: 0 0 5px #9e2031;
+  text-shadow: 0 0 2px #9e2031;
 }
 
 .social-icons {
@@ -392,7 +391,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #860c2b !important;
 }
 
 /* --------- */
@@ -436,7 +435,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #cc3939 !important;
 }
 
 
@@ -457,7 +456,7 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid rgba(175, 19, 19, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
@@ -476,7 +475,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid rgba(160, 32, 49, 0.883) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -502,4 +501,128 @@ button:focus {
 }
 
 
+/* Style CSS encore plus complexe pour le bouton de téléchargement */
+.download-button {
+  background-color: #c70932;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
 
+.download-button:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: -1;
+}
+
+.download-button:hover {
+  background-color: #b92929;
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.download-button:hover:before {
+  transform: translateX(0);
+}
+
+.download-button:active {
+  transform: translateY(2px);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style encore plus complexe pour les boutons de projet */
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #fff;
+  background-color: #db3434;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.button:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s ease, height 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.button:hover:before {
+  width: 160px;
+  height: 160px;
+  opacity: 1;
+}
+
+.button:active {
+  transform: translateY(2px);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button a:hover {
+  text-decoration: underline;
+}
+
+/* Ajoutez ce style dans votre feuille de style CSS */
+.larger-img {
+  width: 100%; /* Ajustez la largeur selon vos besoins */
+  height: auto; /* Ajustez la hauteur selon vos besoins */
+}
+
+.portfolio {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(175, 19, 19, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  transition: all 0.4s ease 0s !important;
+}

@@ -1,0 +1,57 @@
+/*************************************
+DATE : 		10/06/2021
+Projet 01 : Site web recherche emploi mvc
+Groupe A :
+			Cédric Benoit
+			Alexis Meysson
+			Kevin Andrieu
+*****************************************/
+
+
+/******************** page connexion****************/
+
+
+.connex{
+	display: flex;
+	justify-content: center;
+	font-weight:bold;
+}
+.connex_test{
+	width: 30%;
+	background-color: gainsboro;
+	border-radius: 2%;
+	padding: 1%;
+}
+
+.connex_mail{
+	width: 98%;
+	border-radius: 2%;
+}
+
+.connex_button{
+	display: block;
+	background-color: #1c87c9;
+	border-radius: 20px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	width: 100%;
+	font-weight: initial;
+}
+
+.connex_mdp{
+	width: 98%;
+	border-radius: 2%;
+	
+}
+
+.connex h1{
+	text-align: center;
+}
+
+#connex_mdp{
+	margin-left: 45%;
+	color: royalblue;
+	
+}

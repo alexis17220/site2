@@ -1,0 +1,10 @@
+RewriteEngine ON
+
+RewriteCond  %{REQUEST_FILENAME}  !-f
+RewriteCond  %{REQUEST_FILENAME}  !-d
+RewriteCond  %{REQUEST_FILENAME}  !-l
+
+RewriteRule ^(.*)$ https://www.ameysson.fr/Projet_v1/accueil.html
+
+
+#fonctionne dans htdocs de xampp et de le lancer via xampp pas en shell

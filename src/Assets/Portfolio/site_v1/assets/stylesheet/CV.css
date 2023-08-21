@@ -1,0 +1,41 @@
+.mail:hover {
+    text-decoration: underline;
+    color: tan;
+}
+
+
+
+.pro h2,
+.pro article 
+{
+    text-align: center;
+}
+
+.formation {
+    margin-left: 5%;
+}
+
+.savoir,
+.front,
+.back
+{
+    border: solid #353e54 2px;
+    border-radius: 50px;
+    box-shadow: #232323 5px 5px 5px;
+    
+}
+.front2:hover,
+.back2:hover,
+.sav:hover{
+    background-color: azure;
+    color: black;
+}
+
+.card{
+    background-color: transparent;
+    border:1px solid;
+    padding:10px;
+    box-shadow: 5px 5px whitesmoke;
+    border-radius: 20px;   
+    
+}

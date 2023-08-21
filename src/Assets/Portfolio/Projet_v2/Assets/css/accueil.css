@@ -1,0 +1,32 @@
+/*
+        ############## Bootstrap Media queries ############
+
+                        Très petite < 576 px aucun
+
+                        Petite ≥ 576 px -sm
+
+                        Moyenne ≥ 768 px -md 
+
+                        Grande ≥ 992 px -lg
+
+                        Très grande ≥ 1 200 px -xl
+
+        ###################################################
+*/
+@media(max-width:767px){
+   
+ 
+
+}
+
+
+@media(max-width:991px){
+   
+   
+}
+
+@media(min-width:992px){
+
+  
+   
+}

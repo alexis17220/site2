@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Création de compte</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/feuilles_de_styles/main.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo_nav">
+            <div class="logoheader">
+                <img class="logo" src="assets/image/Logorecrutement.png" alt="Logo recrutement">
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="accueil.html">Accueil</a></li>
+                    <li><a href="les_offres.html">Offres</a></li>
+                    <li><a href="a_propos.html">A propos de Nous</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="postal_inscription">
+
+            <div class="display_postal"></div>
+
+            <div class="logo_connexion">
+                <a href="connexion.html">
+                    <img class="logoright" src="assets/image/icone_connexion.png" alt="logo connexion"></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1>Création de compte étudiant</h1>
+        <div>
+
+            <article>
+                <h2>Vos informations personnelles</h2>
+                <br>
+                <div class="container">
+                    <form class="row g-3">
+                        <div class="col-sm-6">
+                            <label class="form-label">Nom</label>
+                            <input type="text" class="form-control" placeholder="Nom">
+                        </div>
+                        <div class="col-sm-6">
+                            <label class="form-label">Prénom</label>
+                            <input type="text" class="form-control" placeholder="Prénom">
+                        </div>
+
+                        <div class="col-sm-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="E-mail">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="inputEmail5" class="form-label">Confirmation Email</label>
+                            <input type="email" class="form-control" id="inputEmail5" placeholder="Confirmation E-mail">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="inputPassword4" class="form-label">Mot de passe</label>
+                            <input type="text" class="form-control" id="inputPassword4" placeholder="Mot de passe">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="inputPassword5" class="form-label">Confirmation de Mot de passe</label>
+                            <input type="text" class="form-control" id="inputPassword5"
+                                placeholder="Confirmation de mot de passe">
+                        </div>
+
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Adresse</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Adresse">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress2" class="form-label">Adresse complémentaire</label>
+                            <input type="text" class="form-control" id="inputAddress2"
+                                placeholder="Adresse Complémentaire">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="inputCity" class="form-label">Ville</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="Ville">
+                        </div>
+                        <div class="col-sm-4">
+                            <label for="inputState" class="form-label">Département</label>
+                            <input type="text" class="form-control" id="inputState">
+
+                        </div>
+                        <div class="col-sm-2">
+                            <label for="inputZip" class="form-label">Code Postal</label>
+                            <input type="text" class="form-control" id="inputZip" placeholder="Code postal">
+                        </div>
+                        <div>
+                            <p>Permis</p>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" value="option1">
+                                <label class="form-check-label">
+                                    Oui
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" value="option2">
+                                <label class="form-check-label">
+                                    Non
+                                </label>
+                            </div>
+                        </div>
+
+                    </form>
+                    <br>
+                    <h3>Documents</h3>
+                    <br>
+                    <form class="row g-3">
+                        <label>CV</label>
+                        <input type="file">
+                        <br>
+                        <label for="formFileMultiple" class="form-label">Diplômes</label>
+                        <input type="file" class="form-control" id="formFileMultiple" multiple>
+                        <br>
+
+                        <label>Secteur d'activité</label>
+                        <input type="text" placeholder="Secteur activité" list="Domaine">
+                        <datalist id="Domaine">
+                            <option value="Administration, affaires, comptabilité et finance">
+                            <option value="Arts, culture, lettres et communication">
+                            <option value="Bâtiment, travaux publics, aménagement et transports">
+                            <option value="Enseignement et sciences de l'éducation, sciences humaines et sociales">
+                            <option value="Justice et protection du public">
+                            <option value="Ressources naturelles, agriculture, faune et environnement">
+                            <option value="Santé">
+                            <option value="Technologies de l'information">
+                            <option value="Tourisme et hôtellerie">
+                        </datalist><br><br>
+
+                        <br>
+                        <label>Autres informations</label>
+                        <textarea placeholder="Informations complémentaires"></textarea>
+                        <div class="col-12">
+                            <input type="submit" class="btn btn-primary">
+                        </div>
+                    </form>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="div_footer">
+            <p class="pfooter">...Ce site/projet fût réalisé par <a href="">Alexis Meysson</a> , <a
+                    href="https://kevinandrieu.com">Kevin Andrieu</a> et <a href="">Cédric Benoit</a> <br>
+                ...Il fût réalisé lors de la formation Développeur Web, Web mobile à l'AFPA de Rochefort en 2021... <br>
+                <a href="https://trello.com/b/nkIMqP5l/projet-de-a-vengers">Voici le lien de notre Trello</a>
+            </p>
+        </div>
+
+        <div class="logo_footer">
+
+            <a href="https://www.sarthe.fr/" target="_blank">
+                <img class="img_footer" src="assets/image/logosarthe.jpg" alt="Logo de la Sarthe">
+            </a>
+
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

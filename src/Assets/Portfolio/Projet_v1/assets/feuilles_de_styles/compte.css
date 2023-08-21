@@ -1,0 +1,82 @@
+/*************************************
+DATE : 		10/06/2021
+Projet 01 : Site web recherche emploi mvc
+Groupe A :
+			Cédric Benoit
+			Alexis Meysson
+			Kevin Andrieu
+*****************************************/
+
+
+/****************Compte******************/
+.compte_section{
+	margin: 1%;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.compte_article{
+	margin-bottom: 2%;
+	width: 100%;
+}
+.compte{
+	margin:1%;
+	width: 100%;
+}
+
+.compte h1{
+	text-align: center;
+}
+
+.compte_section h3{
+	text-align: center;
+	color: #1c87c9;
+}
+
+.compte_descript{
+	width: 100%;
+}
+
+.compte_info {
+	width: 25%;
+	background-color: rgb(226, 243, 239);	
+}
+.compte_perso{
+	margin-bottom: 15%;
+	width: 317%;	
+}
+
+.compte_test{
+	width: 70%;
+}
+
+.section_compte{
+	width: 5%;
+}
+
+.compte_deconnect {
+	color: white;
+	text-decoration:none;
+	font-size: x-large;
+}
+.compte_button{
+	display: block;
+	background-color: #1c87c9;
+	border-radius: 20px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	width: 100%;
+	font-weight: initial;
+}
+
+.compte_nav li{
+	font-size: 24px;
+	margin: 0% -10% 0% 10%;
+   height: 100px;
+	width: 30%;
+	text-align: center;
+	padding-top: 5%;
+}

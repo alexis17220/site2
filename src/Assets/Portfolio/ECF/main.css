@@ -1,0 +1,32 @@
+/*==========
+Meysson Alexis
+23/06/21
+Exercice 5 ECF Creativité
+==============*/
+
+body{
+    background-image:url(nuage.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+
+
+header{
+    position:sticky;
+    top: 0;
+	opacity: 0.95;
+    z-index: 5;
+}
+
+.card{
+    background-color: transparent;
+    border:1px solid;
+    padding:10px;
+    box-shadow: 5px 5px whitesmoke;
+    
+}
+
+iframe{
+    width:100%;
+}

@@ -8,6 +8,10 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiPhp,
+  DiMysql,
+  DiBootstrap,
+  DiHtml5,
 } from "react-icons/di";
 
 function Techstack() {
@@ -25,7 +29,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
-
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
@@ -36,8 +39,18 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
-      
-      
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPhp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 />
+      </Col>
     </Row>
   );
 }

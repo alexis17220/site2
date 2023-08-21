@@ -1,0 +1,344 @@
+
+body{
+	background: rgb(226, 243, 239);
+}
+
+h1, h2{
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*
+			#######################
+			###### BOOTSTRAP ######
+			#######################
+*/
+
+/****************** INDEX ***********************/
+
+.index_article {
+	display:  flex;
+}
+
+
+/******************* Banner *********************/
+
+.carousel {
+	z-index: -1;
+
+}
+
+.carousel-item {
+	height: 300px;
+}
+
+/******************** Header ********************/
+
+
+header{
+	display: flex;
+	background: linear-gradient(-66deg, rgb(48, 117, 100),rgb(62, 197, 163));
+	justify-content: space-between;
+	position: sticky;
+    top: 0;
+	opacity: 0.90;
+	height: 100px;
+}
+	
+.logo_nav{
+	display: flex;
+}
+
+.logoleft{
+	width: 150px;
+	height: 100px;
+}
+
+.logoright{
+	width: 100px;
+	height: 100px;
+}
+
+nav ul{
+	list-style-type: none;
+	/*text-align: left;*/
+	display: flex;
+	margin: 0;
+}
+	
+nav li{
+	font-size: 24px;
+	margin: 0% 2%;
+	height: 100px;
+	width: 30%;
+	text-align: center;
+	padding-top: 5%;
+}
+	
+nav a:hover{
+	color: black;		
+}
+	
+nav a{
+	color: white;
+	text-decoration: none;
+}
+	
+.postal_inscription{
+	display: flex;
+}
+
+.display_postal{
+	align-self: center;
+	
+}
+
+.Accueil, .Offres, .Etudiants{
+	background: rgb(226, 243, 239);
+}
+	
+.Accueil a, .Offres a, .Etudiants a{
+	color: black;
+}
+
+
+/********************** Main *************************/
+
+
+main{	
+	padding: 1%;
+	display: flex;
+	flex-direction: column;
+	margin: 0 5% 5% 5%;
+}
+
+.banniere{
+	background: url(../image/nature_banniere.jpg);
+  	background-position: 0 -269px;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	width: 100%;
+	height: 200px;
+	margin-bottom: 20px;
+}
+
+.pbanniere{
+	font-size: xx-large;
+	color: white;
+	text-shadow: black 5px 5px;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.section_article{
+	display: flex;
+}
+
+.article_principal{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 2%;
+}
+
+.article_formulaire{
+	background: gainsboro;
+	width: 45%;
+}
+
+.article_employeur{
+	background: gainsboro;
+	text-align: center;
+	width: 45%;
+}
+
+h1{
+	font-size: xx-large;
+    color: royalblue;
+    text-align: left;
+    margin: 0;
+}
+
+
+
+.job{
+	display: flex;
+}
+
+.pjob{
+	font-size: x-large;	
+	text-align: center;
+}
+
+.job > p{
+	width: 50%;
+}
+
+.job2{
+	justify-content: center;
+	width: 80%;
+}
+
+.pemployeur{
+	font-size: x-large;
+}
+
+form{
+	text-align: center;
+}
+
+.form1, label{
+	color: royalblue;
+	width: 50%;
+	border-radius: 7px;
+	font-weight:bold;/*mettre en gras*/
+}
+
+.button2{
+    background-color: #1c87c9;
+    border-radius: 7px;
+    color: white; 
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 1% 1%;
+    cursor: pointer;
+	width: 120px ;
+	box-sizing: content-box;
+}
+
+.dotted{
+	border-top: 2px dotted;
+	border-bottom: 2px dotted;
+	font-size: xx-large;
+	margin: 5px 30px;
+	color: royalblue;
+	text-align: center;
+}
+
+.article_principal  a{
+	text-decoration: none;
+}
+
+article{
+	padding: 1%;
+	border: 2px solid white;
+	border-radius: 2px;
+	box-shadow: 0 5px 5px 0;
+	background: gainsboro;
+}
+
+aside{
+	display: flex;
+	float: right;
+	background-color: gainsboro;
+}
+
+
+/************************Article Secondaire*************************/
+
+
+h2{
+	font-size: x-large;
+    color: royalblue;
+    text-align: left;
+    margin: 0;
+}
+
+.article_secondaire{
+	display: flex;
+	justify-content: space-between;
+}
+
+.annonces{
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+}
+
+.annonce1, .annonce2{
+margin: 2% 0;
+background-color: gainsboro;
+width: 100%;
+}
+
+
+/****************************Aside*******************************/
+
+
+aside{
+	width: 30%;
+	margin-top: 2%;
+	height: min-content;
+}
+
+aside > article{
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.annonces > h2{
+	margin-top: 2%;
+}
+
+h5{
+	font-size: large;
+	color: royalblue;
+}
+
+.liste{
+	list-style-type: none;
+}
+
+
+
+
+/************************FOOTER**************************************/
+
+
+footer{
+	display: flex;
+	background: linear-gradient(-66deg, rgb(62, 197, 163), rgb(48, 117, 100)) ;
+	justify-content: space-between;
+}
+
+.div_footer{
+	color: black;
+	text-align: center;
+}
+
+.div_footer p:hover{
+	color: white;
+}
+
+.div_footer{
+	color: black;
+	flex: auto;
+}
+
+.img_footer{
+	width: 70px;
+	height: 70px;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+
+/****************************IDEA BOX*******************************/
+
+.idea_box{
+	display: flex;
+}
+
+.idea_box_form{
+	border: solid royalblue 1px;
+	display: flex;
+	flex-direction: column;
+	padding: 3%;
+	margin: 3%;
+}
+
+
+
+
+
+

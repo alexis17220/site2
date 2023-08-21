@@ -1,0 +1,6 @@
+# Protection simple de mot de passe avec .htaccess
+AuthType Basic
+AuthName "fichiers réservés"
+AuthUserFile "/.htpasswd"
+AuthPGAuthoritative Off
+require user Alexis

@@ -1,0 +1,19 @@
+@media(max-width:425px){
+    
+    .connex{
+        background-color: white;
+        text-align: center;
+        font-weight:bold;
+    }
+    
+    .connex_button{
+        color: white;
+        border-radius: 10%;
+        background-color:#035663;
+        text-decoration: none;
+	    cursor: pointer;    
+    }
+
+
+    
+}
