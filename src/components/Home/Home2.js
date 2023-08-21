@@ -46,7 +46,7 @@ function Home2() {
               <p>
               En outre, je possède la capacité d'employer des technologies plus avancées telles que
               <i>
-                <b className="purple"> ReactJs, Python, Csharp. </b>
+                <b className="purple"> ReactJs, Python, Java et etc... . </b>
               </i>
               </p>
               <br />
